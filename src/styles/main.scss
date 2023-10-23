@@ -1,7 +1,10 @@
 @use "variaveis";
 @use "hero";
+<<<<<<< HEAD
 @use "shows";
 @use "plans";
+=======
+>>>>>>> 77d1b24 (criando o hero e importando a font Avenir)
 
 @font-face {
     font-family: Avenir;
@@ -19,12 +22,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: avenir, sans-serif;
+=======
+>>>>>>> 77d1b24 (criando o hero e importando a font Avenir)
 }
 
 
 body {
     background-color: variaveis.$corDeFundo;
+<<<<<<< HEAD
+=======
+    font-family: avenir, sans-serif;
+>>>>>>> 77d1b24 (criando o hero e importando a font Avenir)
 }
 
 @mixin text($font-size: 16px){
@@ -66,6 +76,7 @@ body {
 
 .title--small {
     @include title(28px);
+<<<<<<< HEAD
 }
 
 .button {
@@ -84,4 +95,6 @@ body {
     &:hover {
         background-color: #7236fc;
     }
+=======
+>>>>>>> 77d1b24 (criando o hero e importando a font Avenir)
 }
